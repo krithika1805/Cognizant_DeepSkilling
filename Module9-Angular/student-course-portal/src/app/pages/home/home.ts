@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './home.css'
 })
 export class Home {
+    message = 'Welcome to Angular Module 9 Hands-On';
+
+  studentName = 'Krithika';
+  batch = 'DN 5.0';
+
+  constructor() {
+  }
 }
